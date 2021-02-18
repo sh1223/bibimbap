@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: bibimbap
-Version: 1.0.1
+Version: 1.0.2
 Summary: selenium based visual automation testing tool
 Home-page: https://github.com/sh1223/bibimbap
 Author: Seonghwan KIM
@@ -27,7 +27,7 @@ Description: # bibimbap
         g1 = ganjang.Ganjang('https://example.com/page_to_test','https://example.com/page_to_test2', example.com')
         s = gochujang.Gochujang()
         s.add_ganjang(g1)
-        s.set_webdriver=("c:/geckodriver.exe")
+        s.set_webdriver("c:/geckodriver.exe")
         s.set_window_size(380,5000)
         s.set_xpath_to_element_to_capture("/html/body")
         s.set_path_to_save("c:/bibimbap_test/")

@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="bibimbap",
-    version="1.0.01",
+    version="1.0.2",
     description="selenium based visual automation testing tool",
     long_description=README,
     long_description_content_type="text/markdown",
